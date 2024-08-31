@@ -77,8 +77,8 @@
   margin-left: 4px;
   } 
   #hamburger{
-    display: none;
-    margin-left: 130px;
+    display: block;
+    margin-right: 30px;
   }
   #unorderList{
    display: none;
