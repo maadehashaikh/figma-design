@@ -102,7 +102,7 @@
   }
   .searchFiled input[type="text"]{
     width: 120px;
-    background-color: white;
+    background-color: red;
     padding: 7px 8px;
     font-size: 12px;
   }
