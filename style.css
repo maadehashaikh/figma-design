@@ -63,8 +63,19 @@
 .icons i{
   margin: 12px;
   color: rgb(54, 50, 50);
+  font-size: 20px;
 }
-
+.cart span{
+  color: black;
+  font-size: 10px;
+  font-family: sans-serif;
+  background-color: yellow;
+  padding: 1.3px 5px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  right: 1.5px;
+}
 /* Tablet Screen  */
 
 @media screen and (max-width:768px) and (min-width:540px){
@@ -102,7 +113,7 @@
   }
   .searchFiled input[type="text"]{
     width: 120px;
-    background-color: red;
+    background-color: white;
     padding: 7px 8px;
     font-size: 12px;
   }
