@@ -65,7 +65,7 @@
   color: rgb(54, 50, 50);
   font-size: 20px;
 }
-.cart span{
+.cart span , .heart span{
   color: black;
   font-size: 10px;
   font-family: sans-serif;
@@ -73,9 +73,160 @@
   padding: 1.3px 5px;
   border-radius: 50%;
   position: relative;
-  bottom: 5px;
-  right: 1.5px;
+  bottom: 10px;
+  right: 2.5px;
+  font-weight: bold;
 }
+.second-Section{
+  background: rgb(37,162,201);
+  background: linear-gradient(270deg, rgba(37,162,201,1) 0%, rgba(230,113,160,1) 96%);
+  width: 100%;
+  height: 62vh;
+}
+.subDiv{
+  width: 30%;
+  position: relative;
+  top: 22%;
+  left: 5%;
+}
+.subDiv h4{
+  color: rgb(93, 78, 78);
+  letter-spacing: 1.5px;
+  font-family: sans-serif;
+}
+.subDiv h1{
+  font-size: 45px;
+  font-family:sans-serif;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.subDiv button{
+  padding: 15px 40px;
+  color: white;
+  background-color: rgb(255, 209, 102);
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.second-Section img{
+  width: 20%;
+  position: relative;
+  left: 65%;
+  bottom: 44%;
+}
+.third-Section{
+  background: rgb(88,195,227);
+  background: linear-gradient(180deg, rgba(88,195,227,1) 16%, rgba(230,113,160,1) 42%, rgba(232,176,64,1) 74%, rgba(242,220,30,1) 98%);
+  width: 100%;
+  height: 300vh;
+}
+.shipping-Support{
+  width: 75%;
+  position: relative;
+  top: 30px;
+  left: 13%;
+  height: 15vh;
+}
+.collections{
+  width: 80%;
+  /* background-color: red; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 70px;
+  margin-left:10% ;
+  gap: 30px;
+}
+.collections .left{
+  width: 100%;
+  background-color: #5CC9EA;
+  border-radius: 30px;
+  height: 30vh;
+  display: flex;
+  align-items:start;
+  justify-content: space-evenly;
+}
+.collections .left .content h2{
+  color: white;
+  font-size: 27px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1.4px;
+  position: relative;
+  top: 20px;
+}
+.collections .left .content p{
+  position: relative;
+  top: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.collections .left .content span{
+  color: #FBD103;
+  font-weight: 600;
+}
+.collections .left .content button{
+  position: relative;
+  top: 45px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 11px;
+}
+.left .girlsCollection{
+  width: 26%;
+  position: relative;
+  left: 10%;
+  bottom: 10px; 
+}
+.collections .right{
+  width: 100%;
+  background-color: #FBD103;
+  border-radius: 30px;
+  height: 30vh;
+  display: flex;
+  align-items:start;
+  justify-content: space-evenly;
+}
+
+.collections .right .content h2{
+  color: white;
+  font-size: 27px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1.4px;
+  position: relative;
+  top: 20px;
+}
+.collections .right .content p{
+  position: relative;
+  top: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.collections .right .content span{
+  color: black;
+  font-weight: 600;
+}
+.collections .right .content button{
+  position: relative;
+  top: 45px;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 11px;
+}
+.right .boysCollection{
+  width: 32%;
+  position: relative;
+  left: 10%;
+}
+
 /* Tablet Screen  */
 
 @media screen and (max-width:768px) and (min-width:540px){
@@ -109,7 +260,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  left: 46%;
+  left: 40%;
   }
   .searchFiled input[type="text"]{
     width: 120px;
@@ -119,13 +270,24 @@
   }
  .icons{
   position: absolute;
-  right:18%;
+  right:22%;
   width: 70px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
  }
  .icons i{
-  margin: 8px;
+  margin: 7px;
+ }
+ .second-Section{
+  height: 40vh;
+ }
+ .second-Section .subDiv{
+  top: 50px;
+ }
+ .second-Section img{
+  bottom: 58%;
+  width: 30%;
+  left: 60%; 
  }
 }
